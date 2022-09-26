@@ -22,8 +22,8 @@ public class Main {
         System.out.println("Экватор примерно " + manySm + " см");
         double littleDog = 2.768;
         System.out.println("Маленькая собачка не больше " + littleDog + " кг");
-        boolean heavyDog = littleDog < 10;
-        System.out.println( "Утверждение, что маленькая собачка меньше 10 кг " + heavyDog);
+        boolean heavyDog = littleDog > 10;
+        System.out.println( "Утверждение, что маленькая собачка, больше 10 кг " + heavyDog);
         short saltWight = 768;
         System.out.println("Вес соли " + saltWight + " кг");
         short smallSize = -159;
