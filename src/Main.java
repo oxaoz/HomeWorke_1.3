@@ -22,9 +22,9 @@ public class Main {
         System.out.println("Экватор примерно " + manySm + " см");
         double littleDog = 2.768;
         System.out.println("Маленькая собачка не больше " + littleDog + " кг");
-        boolean heavyDog = littleDog > 10;
+        boolean heavyDog = false;
         System.out.println( "Утверждение, что маленькая собачка, больше 10 кг - " + heavyDog);
-        short saltWight = 768;
+        char saltWight = 569;
         System.out.println("Вес соли " + saltWight + " кг");
         short smallSize = -159;
         System.out.println(smallSize);
@@ -42,9 +42,9 @@ public class Main {
         System.out.println("У Екатерины Андреевны " + ekaterinaAndreevna + " ученика.");
         int totalStudents = ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna;
         System.out.println("Всего " + totalStudents + " учеников.");
-        long papers = 480L;
-        System.out.println("Бумаги " + papers + " листов.");
-        System.out.println("На каждого ученика рассчитано " + papers / totalStudents + " листов бумаги.");
+        long papersCount = 480L;
+        System.out.println("Бумаги " + papersCount + " листов.");
+        System.out.println("На каждого ученика рассчитано " + papersCount / totalStudents + " листов бумаги.");
 
         System.out.println("Задача N4");
         short perfomanceBottle = 16;
